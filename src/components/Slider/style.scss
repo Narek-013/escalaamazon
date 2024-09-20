@@ -1,0 +1,110 @@
+.slider {
+  width: 100%;
+  padding: 0px 0 0 0;
+  padding-bottom: 80px;
+
+  .slider-item_container {
+    width: 100%;
+  }
+
+  .swiper {
+    padding: 6px 0;
+    .swiper-slide {
+      max-width: 316px;
+    }
+  }
+
+  .slider-item {
+    width: 100%;
+    padding: 32px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    border-radius: 8px;
+    background: var(--Light-Base-Color-White, #fff);
+    box-shadow: 0px 0px 2px;
+    img:first-child {
+      width: 96px;
+      height: 16px;
+      flex-shrink: 0;
+      margin-bottom: 20px;
+    }
+
+    p {
+      color: var(--Light-Text-Color-Title, #11142d);
+      font-family: Inter;
+      font-size: 12px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 120%; /* 14.4px */
+      max-width: 259px;
+      height: 65px;
+      flex-shrink: 0;
+    }
+
+    div {
+      display: flex;
+      column-gap: 16px;
+      margin-top: 17px;
+      @media (max-width: 520px) {
+        margin-top: 35px;
+      }
+      img:first-child {
+        border-radius: 40px;
+        width: 40px;
+        height: 40px;
+      }
+
+      ul {
+        display: flex;
+        flex-direction: column;
+        row-gap: 4px;
+        li:first-child {
+          color: var(--Light-Text-Color-Title, #11142d);
+          font-family: Inter;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 600;
+          line-height: 120%; /* 19.2px */
+          letter-spacing: 0.08px;
+        }
+        li {
+          color: var(--Light-Text-Color-Body-1, #92929d);
+          font-family: Inter;
+          font-size: 14px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: 130%; /* 18.2px */
+          letter-spacing: 0.112px;
+        }
+      }
+    }
+  }
+
+  .slider__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 20px;
+    margin-top: 35px;
+    button:first-child {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 61px;
+      height: 61px;
+      flex-shrink: 0;
+      background-color: rgba(237, 238, 239, 0.5);
+      border-radius: 50%;
+    }
+    button:last-child {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 61px;
+      height: 61px;
+      flex-shrink: 0;
+      background-color: rgba(255, 0, 0, 1);
+      border-radius: 50%;
+    }
+  }
+}

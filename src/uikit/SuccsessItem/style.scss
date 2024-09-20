@@ -1,0 +1,134 @@
+.succsess-card {
+  width: 358px;
+  height: 289px;
+  border-radius: 16px;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  padding: 57px 60px 26px 30px;
+  width: 358px;
+  height: 289px;
+  flex-shrink: 0;
+  position: relative;
+  .succsess__container-items-card-img {
+    @media (max-width: 450px) {
+      width: 100px;
+      top: 4px;
+    }
+  }
+  img {
+    position: absolute;
+    right: 10px;
+    top: -70px;
+  }
+  span {
+    margin-bottom: 10px;
+    color: #b5b8c6;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 12px; /* 100% */
+  }
+
+  .activeh3 {
+    margin-bottom: 13px;
+    width: 130px;
+    height: 58px;
+    flex-shrink: 0;
+    color: #292929;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 33px; /* 165% */
+    letter-spacing: -0.521px;
+  }
+
+  .activeh4 {
+    margin-bottom: 13px;
+    width: 94px;
+    height: 58px;
+    flex-shrink: 0;
+    color: #292929;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 33px; /* 165% */
+    letter-spacing: -0.521px;
+  }
+
+  h4 {
+    margin-bottom: 16px;
+    max-width: 139px;
+    height: 58px;
+    flex-shrink: 0;
+    color: #292929;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 33px; /* 165% */
+    letter-spacing: -0.521px;
+  }
+  p {
+    margin-bottom: 16px;
+    max-width: 268px;
+    color: #5b5a62;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 200% */
+    letter-spacing: -0.4px;
+  }
+
+  .succsess__buttons {
+    display: flex;
+    column-gap: 10px;
+    position: relative;
+    .button__img {
+      position: absolute;
+      right: -34px;
+      top: -22px;
+    }
+    button:first-child {
+      border-radius: 4px;
+      background: #f00;
+      width: 110px;
+      height: 32px;
+      flex-shrink: 0;
+      color: #fff;
+      font-family: Inter;
+      font-size: 12px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      letter-spacing: -0.24px;
+      span {
+        color: #fff;
+        font-family: Inter;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: -0.24px;
+      }
+    }
+    button:nth-child(2) {
+      color: #838383;
+      font-family: Inter;
+      font-size: 12px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      letter-spacing: -0.24px;
+      width: 98px;
+      height: 32px;
+      flex-shrink: 0;
+      border-radius: 4px;
+      background: #f8f7fe;
+    }
+  }
+}

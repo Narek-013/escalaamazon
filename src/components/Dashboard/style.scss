@@ -1,0 +1,103 @@
+.dashboard {
+  width: 100%;
+  padding: 80px 20px;
+  @media (max-width: 988px) {
+    padding: 24px 20px;
+  }
+  .dashboard__container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    row-gap: 0;
+    column-gap: 25px;
+    .dashboard-block {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: flex-start;
+      width: 100%;
+      h1 {
+        color: var(--Gray-Gray-700, #2d3748);
+        font-family: Helvetica;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 140%;
+      }
+      .dashboard-img {
+        width: 100%;
+      }
+      .dashboard-span {
+        color: var(--Green-Green-400, #48bb78);
+        font-family: Helvetica;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 140%;
+        margin-bottom: 42px;
+      }
+      .dashboard-product {
+        margin-top: 72px;
+        display: flex;
+        flex-direction: column;
+        row-gap: 41px;
+        width: 100%;
+        h2 {
+          color: var(--Gray-Gray-700, #2d3748);
+          font-family: Helvetica;
+          font-size: 18px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: 140%;
+        }
+        .dashboard-product__cards {
+          display: grid;
+          grid-template-columns: repeat(5, 1fr);
+          grid-gap: 20px;
+          width: 100%;
+          @media (max-width: 1300px) {
+            column-gap: 40px;
+            flex-wrap: wrap;
+            row-gap: 25px;
+          }
+          @media (max-width: 465px) {
+            align-items: center;
+            justify-content: center;
+          }
+          .dashboard-product__card {
+            display: flex;
+            column-gap: 38px;
+            row-gap: 45px;
+            flex-wrap: wrap;
+            @media (max-width: 465px) {
+              align-items: center;
+              justify-content: center;
+            }
+          }
+          .product-item {
+            width: 100%;
+          }
+          .dashboard-button {
+            width: 208px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            text-align: center;
+            border: 1px solid rgba(0, 0, 0, 0.08);
+            border-radius: 16px;
+            padding: 10px 12px;
+            height: 340px;
+            color: var(--Gray-Gray-500, #718096);
+            font-family: Helvetica;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 140%;
+            padding: 12px;
+          }
+        }
+      }
+    }
+  }
+}

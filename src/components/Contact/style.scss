@@ -1,0 +1,168 @@
+.contact {
+  width: 100%;
+  padding: 172px 20px 60px;
+  @media (max-width: 1259px) {
+    padding: 20px;
+  }
+  .contact__container {
+    display: flex;
+    justify-content: space-around;
+    column-gap: 58px;
+    @media (max-width: 1170px) {
+      flex-direction: column;
+      align-items: center;
+    }
+    .contact-title {
+      display: flex;
+      flex-direction: column;
+      h2 {
+        margin-bottom: 20px;
+        color: #292929;
+        font-family: Inter;
+        font-size: 50px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 50px; /* 100% */
+        letter-spacing: -1px;
+      }
+
+      p {
+        margin-bottom: 60px;
+        color: #5b5a62;
+        font-family: Inter;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30px; /* 166.667% */
+        letter-spacing: -0.4px;
+        max-width: 485px;
+      }
+
+      div {
+        width: 350px;
+        height: 94px;
+        border-radius: 8px;
+        background: var(--Light-Base-Color-White, #fff);
+        box-shadow: 0px 30px 116px -16px rgba(211, 211, 211, 0.7);
+        display: flex;
+        justify-content: flex-start;
+        padding: 28px;
+        align-items: center;
+        column-gap: 18px;
+        margin-bottom: 24px;
+        border-radius: 8px;
+        background: var(--Light-Base-Color-White, #fff);
+        box-shadow: 0px 30px 116px -16px rgba(211, 211, 211);
+        button {
+          background-color: #000;
+          padding: 14px;
+          border-radius: 16px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+        img {
+          width: 28px;
+          height: 28px;
+        }
+
+        ul {
+          display: flex;
+          flex-direction: column;
+          row-gap: 16px;
+          li:first-child {
+            color: var(--Light-Text-Color-Body-1, #92929d);
+            font-family: Inter;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 14px; /* 87.5% */
+            letter-spacing: 0.128px;
+          }
+          a,
+          li:last-child {
+            color: var(--Light-Text-Color-Title, #11142d);
+            font-family: Inter;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 18px; /* 112.5% */
+            letter-spacing: 0.08px;
+          }
+        }
+      }
+    }
+
+    .contact-input {
+      display: flex;
+      flex-direction: column;
+      margin-top: 73px;
+      @media (max-width: 1124px) {
+        margin-left: 75px;
+      }
+      @media (max-width: 628px) {
+        margin-left: 20px;
+      }
+      div {
+        display: flex;
+        align-items: center;
+        column-gap: 21px;
+        margin-bottom: 31px;
+        input {
+          padding: 20px 21px;
+          max-width: 298.102px;
+          flex-shrink: 0;
+          border-radius: 8px;
+          border: 0.3px solid #bec0bf;
+          background: var(--Light-Base-Color-White, #fff);
+          color: var(--Light-Text-Color-Body-1, #92929d);
+          color: #000;
+          font-family: Inter;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 150%;
+          letter-spacing: 0.128px;
+          @media (max-width: 620px) {
+            width: 170px;
+          }
+        }
+      }
+
+      input {
+        padding: 20px 21px 168px;
+        border-radius: 8px;
+        border: 0.3px solid #bec0bf;
+        background: var(--Light-Base-Color-White, #fff);
+        max-width: 619px;
+        color: var(--Light-Text-Color-Body-1, #92929d);
+        font-family: Inter;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150%;
+        letter-spacing: 0.128px;
+        color: #000;
+      }
+
+      button {
+        margin-top: 34px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+        align-self: flex-end;
+        font-family: Inter;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        background-color: #f00;
+        border-radius: 16px;
+        width: 176px;
+        height: 56px;
+        flex-shrink: 0;
+        line-height: 150%;
+      }
+    }
+  }
+}

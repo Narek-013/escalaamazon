@@ -1,0 +1,159 @@
+.team {
+  width: 100%;
+  padding: 73px 20px;
+  @media (max-width: 1259px) {
+    padding: 20px;
+  }
+  .team__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+
+    .team-image {
+      img:first-child {
+        position: absolute;
+        left: -55px;
+        top: 0;
+        @media (max-width: 1259px) {
+          display: none;
+        }
+      }
+      img:last-child {
+        position: absolute;
+        right: 0;
+        top: 0;
+        @media (max-width: 1259px) {
+          display: none;
+        }
+      }
+    }
+    
+    .team-img {
+      position: absolute;
+      left: -40px;
+      bottom: -140px;
+      @media (max-width: 1259px) {
+        display: none;
+      }
+    }
+    h4 {
+      width: 658px;
+      height: 50.926px;
+      flex-shrink: 0;
+      color: #292929;
+      text-align: center;
+      font-family: Inter;
+      font-size: 50px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 50px; /* 100% */
+      letter-spacing: -1px;
+      margin-bottom: 27px;
+      span {
+        color: #f00;
+        font-family: Inter;
+        font-size: 50px;
+        font-style: italic;
+        font-weight: 700;
+        line-height: 50px;
+        letter-spacing: -1px;
+      }
+    }
+
+    p {
+      max-width: 790px;
+      flex-shrink: 0;
+      color: #5b5a62;
+      text-align: center;
+      font-family: Inter;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 30px; /* 150% */
+      letter-spacing: -0.4px;
+    }
+
+    .team-workers {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      column-gap: 64px;
+      margin-top: 202px;
+      @media (max-width: 1259px) {
+        flex-direction: column;
+        row-gap: 148px;
+      }
+      div {
+        display: flex;
+        flex-direction: column;
+        width: 344px;
+        height: 429px;
+        justify-content: flex-end;
+        align-items: center;
+        position: relative;
+        img {
+          left: 0;
+          top: -133px;
+          position: absolute;
+        }
+
+        span {
+          color: #000;
+          text-align: center;
+          font-family: Poppins;
+          font-size: 27px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: normal;
+        }
+        span:last-child {
+          margin-bottom: 21px;
+          color: #000;
+          text-align: center;
+          font-family: Poppins;
+          font-size: 20px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: normal;
+        }
+      }
+      .team-active {
+        display: flex;
+        flex-direction: column;
+        width: 344px;
+        height: 429px;
+        justify-content: flex-end;
+        align-items: center;
+        position: relative;
+        img {
+          left: -50px;
+          top: -133px;
+          position: absolute;
+        }
+
+        span {
+          color: #fff;
+          text-align: center;
+          font-family: Poppins;
+          font-size: 27px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: normal;
+        }
+        span:last-child {
+          margin-bottom: 21px;
+          color: #fff;
+          text-align: center;
+          font-family: Poppins;
+          font-size: 20px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: normal;
+        }
+      }
+    }
+  }
+}

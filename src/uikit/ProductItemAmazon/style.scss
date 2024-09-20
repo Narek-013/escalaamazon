@@ -1,0 +1,68 @@
+.product-item {
+  width: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  border-radius: 16px;
+  padding: 10px 12px;
+  height: 341px;
+  background-color: #fff;
+  img {
+    width: 154px;
+    height: 154px;
+    flex-shrink: 0;
+    border-radius: 50%;
+    margin-bottom: 11px;
+  }
+
+  h5 {
+    color: #2e2e2e;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 4px;
+  }
+
+  .product-item-border {
+    border-radius: 1px;
+    width: 20px;
+    height: 2px;
+    flex-shrink: 0;
+    background: #ffa610;
+    margin-bottom: 16px;
+  }
+
+  p {
+    color: #2e2e2e;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px; /* 90.909% */
+    letter-spacing: -0.22px;
+    margin-bottom: 6px;
+  }
+
+  .product-item-span {
+    color: #a5a5a5;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 10px; /* 100% */
+  }
+
+  .amazon-img {
+    margin-top: 9px;
+    border-radius: 0;
+    width: 131px;
+    height: 35px;
+  }
+}

@@ -1,0 +1,93 @@
+.static-overview {
+  width: 100%;
+  padding: 98px 20px;
+  @media (max-width: 988px) {
+    padding: 24px 20px;
+  }
+  .static-overview__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    h1 {
+      width: 248.8px;
+      height: 27.208px;
+      flex-shrink: 0;
+      color: var(--Gray-Gray-700, #2d3748);
+      font-family: "helvetica neue";
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 140%; /* 25.2px */
+    }
+    .static-overview__container-img {
+      width: 100%;
+    }
+    .static-overview__container-span {
+      color: var(--Green-Green-400, #48bb78);
+      font-family: "helvetica neue";
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 140%;
+      margin-bottom: 42px;
+    }
+    .static-overview__container-product {
+      margin-top: 72px;
+      display: flex;
+      flex-direction: column;
+      row-gap: 41px;
+
+      h2 {
+        color: var(--Gray-Gray-700, #2d3748);
+        font-family: "helvetica neue";
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 140%; /* 25.2px */
+      }
+      .static-overview__container-product__card-block {
+        display: flex;
+        justify-content: space-between;
+        column-gap: 150px;
+        @media (max-width: 1300px) {
+          column-gap: 40px;
+          flex-wrap: wrap;
+          row-gap: 25px;
+        }
+        @media (max-width: 465px) {
+          align-items: center;
+          justify-content: center;
+        }
+        .static-overview__container-product__card {
+          display: flex;
+          column-gap: 38px;
+          row-gap: 45px;
+          flex-wrap: wrap;
+          @media (max-width: 465px) {
+            align-items: center;
+            justify-content: center;
+          }
+        }
+        .static-overview__container-product__card-block-button {
+          width: 180px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+          border: 1px solid rgba(0, 0, 0, 0.08);
+          border-radius: 16px;
+          padding: 10px 12px;
+          height: 340px;
+          color: var(--Gray-Gray-500, #718096);
+          font-family: "helvetica neue";
+          font-size: 18px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: 140%;
+          padding: 12px;
+        }
+      }
+    }
+  }
+}

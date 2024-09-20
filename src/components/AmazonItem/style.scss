@@ -1,0 +1,43 @@
+.amazon-item {
+  width: 100%;
+  .amazon-item__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    @media (max-width: 1350px) {
+      display: none;
+    }
+    .amazon-img {
+      width: 80%;
+    }
+
+    .swiper {
+      padding-bottom: 90px;
+    }
+
+    .swiper-slide {
+      max-width: 180px;
+      height: 500px;
+      &:nth-child(odd) {
+        top: 78px;
+      }
+    }
+
+    .amazon-items {
+      top: 116px;
+      position: absolute;
+      display: flex;
+      column-gap: 54px;
+      background-color: transparent;
+      .product-item:nth-child(odd) {
+        margin-top: 78px;
+      }
+      .product-item:last-child,
+      .product-item:first-child {
+        margin-top: 140px;
+      }
+    }
+  }
+}

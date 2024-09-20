@@ -1,0 +1,37 @@
+.position_button {
+  width: 160px;
+  height: 74px;
+  flex-shrink: 0;
+  border-radius: 12px;
+  background: #fff;
+  box-shadow: 0px 40px 70px -10px rgba(0, 0, 0, 0.08);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 9px;
+  .position_button-text {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-left: 18px;
+    p {
+      max-width: 97px;
+      color: #404040;
+      font-family: Poppins;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 20px; /* 125% */
+    }
+    span {
+      color: #a5a4a4;
+      font-family: Poppins;
+      font-size: 12px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 20px;
+    }
+  }
+}

@@ -1,0 +1,117 @@
+$fontFamily: "sans-serif";
+$fontSize: 16;
+//</Шрифт по умолчанию>==========================================================================================
+
+//</ШРИФТЫ>=======================================================================================================
+
+//<ПЕРЕМЕННЫЕ>==========================================================================================================
+$minWidth: 320px;
+$maxWidth: 1920;
+$maxWidthContainer: 1170;
+$md1: 1684px;
+$md2: 1024px;
+$md3: 768px;
+$md4: 480px;
+
+$mainColor: #000;
+$mainBackground: #fff;
+
+@font-face {
+  font-family: 'Helvetica';
+  src: url('../public/fonts/Helvetica-LightOblique.woff2') format('woff2');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Helvetica';
+  src: url('../public/fonts/Helvetica.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Helvetica';
+  src: url('../public/fonts/Helvetica-BoldOblique.woff2') format('woff2');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Helvetica';
+  src: url('../public/fonts/Helvetica-Light.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Helvetica';
+  src: url('../public/fonts/Helvetica-Bold.woff2') format('woff2');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Helvetica';
+  src: url('../public/fonts/Helvetica-Oblique.woff2') format('woff2');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+
+
+.page {
+	flex: 1 1 auto;
+}
+
+._container {
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.product {
+    display: flex;
+    padding: 0 20px
+  }
+
+
+//uikit
+@import "./uikit/Input/style.scss";
+@import "./uikit/Button/style.scss";
+@import "./uikit/PositonButton/style.scss";
+@import "./uikit/ProductItem/style.scss";
+@import "./uikit/ProductItemAmazon/style.scss";
+@import "./uikit/SuccsessButton/style.scss";
+@import "./uikit/SuccsessItem/style.scss";
+
+//components
+@import "./components/Header/header.scss";
+@import "./components/Footer/footer.scss";
+@import "./components/Support/style.scss";
+@import "./components/Main/style.scss";
+@import "./components/Login/style.scss";
+@import "./components/Subscribe/style.scss";
+@import "./components/Dashboard/style.scss";
+@import "./components/StaticsOverivew/style.scss";
+@import "./components/Product/style.scss";
+@import "./components/Slider/style.scss";
+@import "./components/Team/style.scss";
+@import "./components/EasyExport/style.scss";
+@import "./components/AmazonItem/style.scss";
+@import "./components/Tariff/style.scss";
+@import "./components/Success/style.scss";
+@import "./components/Contact/style.scss";
+@import "./components/StepIndicator/style.scss";
+@import "./components/BurgerMenu/style.scss";
+@import "./components/Help/style.scss";
+@import "./components/InfoBlock/style.scss";
+@import "./components/Confirmation/style.scss";
+
+
