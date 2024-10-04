@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/escalaamazon/static/css/main.33f64886.css",
-    "main.js": "/escalaamazon/static/js/main.037d3fca.js",
+    "main.js": "/escalaamazon/static/js/main.1c750ca9.js",
     "static/js/453.7718cc8e.chunk.js": "/escalaamazon/static/js/453.7718cc8e.chunk.js",
     "static/media/stepimg4.png": "/escalaamazon/static/media/stepimg4.bc08a6f561cb10d3c9e6.png",
     "static/media/steimg3.png": "/escalaamazon/static/media/steimg3.6aa6eab65764e4bda7ee.png",
@@ -31,11 +31,11 @@
     "static/media/Helvetica-LightOblique.woff2": "/escalaamazon/static/media/Helvetica-LightOblique.3f1fbd4908823c15cddd.woff2",
     "index.html": "/escalaamazon/index.html",
     "main.33f64886.css.map": "/escalaamazon/static/css/main.33f64886.css.map",
-    "main.037d3fca.js.map": "/escalaamazon/static/js/main.037d3fca.js.map",
+    "main.1c750ca9.js.map": "/escalaamazon/static/js/main.1c750ca9.js.map",
     "453.7718cc8e.chunk.js.map": "/escalaamazon/static/js/453.7718cc8e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.33f64886.css",
-    "static/js/main.037d3fca.js"
+    "static/js/main.1c750ca9.js"
   ]
 }
