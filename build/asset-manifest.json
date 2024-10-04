@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/escalaamazon/static/css/main.33f64886.css",
+    "main.js": "/escalaamazon/static/js/main.ae1b05b0.js",
+    "static/js/453.7718cc8e.chunk.js": "/escalaamazon/static/js/453.7718cc8e.chunk.js",
+    "static/media/stepimg4.png": "/escalaamazon/static/media/stepimg4.bc08a6f561cb10d3c9e6.png",
+    "static/media/steimg3.png": "/escalaamazon/static/media/steimg3.6aa6eab65764e4bda7ee.png",
+    "static/media/imgcard1.png": "/escalaamazon/static/media/imgcard1.5b107c11c37a44bdef15.png",
+    "static/media/imgcard.png": "/escalaamazon/static/media/imgcard.29509159557f3a57cbaa.png",
+    "static/media/amazonImg.png": "/escalaamazon/static/media/amazonImg.b89df2d73f170bce1040.png",
+    "static/media/amazonback.png": "/escalaamazon/static/media/amazonback.ccde1d9ec4d46964de76.png",
+    "static/media/girl1.png": "/escalaamazon/static/media/girl1.e95899a1faef9be9a444.png",
+    "static/media/Pattern.png": "/escalaamazon/static/media/Pattern.8fe1020c2c86388422a1.png",
+    "static/media/girl3.png": "/escalaamazon/static/media/girl3.63a73c7f456e58dcdebe.png",
+    "static/media/girl2.png": "/escalaamazon/static/media/girl2.37d8f7a462c4dd8ee548.png",
+    "static/media/Helvetica-Bold.woff2": "/escalaamazon/static/media/Helvetica-Bold.cbfb87482450b35ef021.woff2",
+    "static/media/Helvetica.woff2": "/escalaamazon/static/media/Helvetica.2600cb36b1f5d34725f1.woff2",
+    "static/media/Helvetica-Oblique.woff2": "/escalaamazon/static/media/Helvetica-Oblique.14fb7b2f99221032a72f.woff2",
+    "static/media/Data.png": "/escalaamazon/static/media/Data.f8eb3dcae48d8525a91c.png",
+    "static/media/Helvetica-BoldOblique.woff2": "/escalaamazon/static/media/Helvetica-BoldOblique.0a5b0a5603a5386dcc83.woff2",
+    "static/media/4 308.png": "/escalaamazon/static/media/4 308.cc09bf6aada2f226d0e5.png",
+    "static/media/subback.png": "/escalaamazon/static/media/subback.dc83f2bc443e6c44bfbc.png",
+    "static/media/succsesim2.png": "/escalaamazon/static/media/succsesim2.17b5cf700d9f84c11f17.png",
+    "static/media/productimg1.png": "/escalaamazon/static/media/productimg1.fc8bbb613628a8fb70ea.png",
+    "static/media/productimg2.png": "/escalaamazon/static/media/productimg2.70a44ca54fa3f1c53d83.png",
+    "static/media/amazonimg5.png": "/escalaamazon/static/media/amazonimg5.508641c7386063fcad57.png",
+    "static/media/productimg3.png": "/escalaamazon/static/media/productimg3.c7faa71f73d96d600bd1.png",
+    "static/media/amazonimg7.png": "/escalaamazon/static/media/amazonimg7.c6465de8785c0bacf59d.png",
+    "static/media/amazonimg6.png": "/escalaamazon/static/media/amazonimg6.72ddb814425e759522c9.png",
+    "static/media/Helvetica-Light.woff2": "/escalaamazon/static/media/Helvetica-Light.4b97e38facb5c938d4f1.woff2",
+    "static/media/Helvetica-LightOblique.woff2": "/escalaamazon/static/media/Helvetica-LightOblique.3f1fbd4908823c15cddd.woff2",
+    "index.html": "/escalaamazon/index.html",
+    "main.33f64886.css.map": "/escalaamazon/static/css/main.33f64886.css.map",
+    "main.ae1b05b0.js.map": "/escalaamazon/static/js/main.ae1b05b0.js.map",
+    "453.7718cc8e.chunk.js.map": "/escalaamazon/static/js/453.7718cc8e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.33f64886.css",
+    "static/js/main.ae1b05b0.js"
+  ]
+}
