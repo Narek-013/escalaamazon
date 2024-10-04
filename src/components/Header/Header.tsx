@@ -33,7 +33,7 @@ function Header() {
         </Link>
         <ul>
           <li>
-            <a href="/" className="active">
+            <a href="" className="active">
               About us
             </a>
           </li>
